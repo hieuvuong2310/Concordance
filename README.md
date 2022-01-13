@@ -49,6 +49,8 @@ RABBIT   a rabbit or elephant (3)
 **FILE CLARIFICATION**
 
 _________________________________________________________________________________________________________________________________________________________________________________
+In main branch:
+
 • concord3.c:	The	majority	of	my	solution	will	most	likely	appear	in	this	file.	
 
 • emalloc.[ch]: Code	for	safe	calls	to	malloc(). If there were error with malloc(), the program would terminate.
@@ -57,8 +59,14 @@ ________________________________________________________________________________
 
 • makefile:	This	automates	many	of	the	steps	required	to	build	the	concord3
 
-• referencefile: contains 6 language files to refer to
+In reference branch:
 
-• testfile: contains 21 testing input files
+• contains 6 language files to filter.
 
-• expectfile: all outputs after running all the testfile are expect to be the same as 21 expected files in this folder
+In testfile branch:
+
+• contains 19 testing input files name "in##.txt" for ## ranging from 02 to 20. The in01.txt is the empty file cannot upload on GitHub.
+
+In expectfile branch:
+
+• all outputs after running all the testfile are expect to be the same as 19 expected files in this folder, not including empty file. 
