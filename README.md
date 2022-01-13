@@ -21,7 +21,7 @@ a rabbit or elephant
 After running the program from the command line: _./concord3 in14.txt -e english-2.txt_ or _./concord3 -e latin-2.txt in19.txt_ after calling _make_ from the command line
 
 ***************************************************************************************************
-CAT      the fish a dog cat dog rabbit (1)
+CAT	     the fish a dog cat dog rabbit (1)
 
 CAT      the fish and cat (2)
 
